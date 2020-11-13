@@ -8,7 +8,7 @@
 		.line{
 			display:inline-block;
 			vertical-align:top;	
-		}
+			}
 		table{
 			border:0;
 		}
