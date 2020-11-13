@@ -1,0 +1,107 @@
+table{
+    border:solid #aa1111 1px;
+    margin-bottom: 2px;
+}
+body{
+    background-color: #000000;
+    color: #771111;
+    text-align: center;
+}
+p, li{
+    font-size: 13pt;
+}
+td{
+    margin: 1px;
+    border: 1px solid #aa1111;
+    min-width: 15px;
+    min-height: 15px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+.padding5{
+    padding: 5px;
+}
+.flex{
+    width: 100%;
+    display: inline-flex;
+    flex: nowrap;
+    justify-content: space-around;
+    /*background: url(C:/Users/User/Downloads/White\ Angel\ Wings\ Images\ &\ Pictures\ -\ Becuo.jpg) no-repeat;*/
+    text-align: center;
+}
+.bgred{    
+    background-color: red;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body{
+    width: 60%;
+    margin: auto;
+    background: url(img/wings.png) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+header{
+    background-color: #00001b;
+}
+header *{
+    text-align: center;
+    background-color: #00001b;
+}
+main{
+    background-color: #00001b;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+nav{
+    position: fixed;
+    background-color: #00001b;
+    width: fit-content;
+}
+nav li{
+    border: #771111 solid 1px;
+    padding: 5px 5px;
+    margin: 5px 10px 0px -30px;
+}
+nav a{
+    text-decoration: none;
+    color: #771111;
+    font-size: 12pt;
+}
+nav a:hover{
+    color: red;
+}
+aside{
+    position: absolute;
+    left: 90%;
+    top: 3%;
+    width: fit-content;
+    margin: 0 -75px;
+    padding-top: -100px;
+}
+xmp{
+    border: 1px #771111 solid;
+    width: fit-content;
+    padding: 5px;
+}
+input{
+    background: #115;
+    color: #aa1111;
+    font-weight: 700;
+    padding: 5px;
+    border:1px solid #aaa;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color: #771111;
+}
+a:hover{
+    color: #aa1111;
+}
+footer{
+    height: 50px;
+}
+h3{
+    color: #115;
+}
