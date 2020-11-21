@@ -14,8 +14,9 @@
 	if(empty($find[0]))
 		echo "Такого пользователя не найдено";
 	else{
-	echo "<pre>$S $F $P<br>";
-	print_r($find);
-	echo "</pre>";
+	echo "$S $F $P<br>";
+	foreach ($find as $key => $line_num) {
+		echo "$line_num ";
+	}
 	}
 ?>
