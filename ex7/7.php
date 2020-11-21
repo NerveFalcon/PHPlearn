@@ -65,7 +65,7 @@
 			$country = "не опознана";
 			break;
 	}
-	$target_dir = "../img";
+	$target_dir = "../content/imgs";
 	$target_file = "avatar." . basename($_FILES["photo"]["type"]);
 	$uploadOk = 1;
 	if ($_FILES["photo"]["error"] == 0)

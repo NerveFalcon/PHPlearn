@@ -27,7 +27,6 @@ td{
     display: inline-flex;
     flex: nowrap;
     justify-content: space-around;
-    /*background: url(C:/Users/User/Downloads/White\ Angel\ Wings\ Images\ &\ Pictures\ -\ Becuo.jpg) no-repeat;*/
     text-align: center;
 }
 .bgred{    
@@ -37,7 +36,7 @@ td{
 body{
     width: 60%;
     margin: auto;
-    background: url(img/wings.png) no-repeat;
+    background: url(content/imgs/wings.png) no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
