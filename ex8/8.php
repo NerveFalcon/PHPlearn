@@ -36,55 +36,6 @@
 			$_POST["date"]."|".$sex[0]."|".$_POST["group"]."|".
 			$country."|".$_POST["addres"]."|".$_POST["tel"]."|".
 			$_POST["mail"]."|".$hobby."|".$_POST["about"]);
-		echo "
-	<table style=\"margin:auto\">
-		<tr>
-			<td>Фамилия</td>
-			<td>".$_POST["SecName"]."</td>
-		</tr>
-		<tr>
-			<td>Имя</td>
-			<td>".$_POST["FirstName"]."</td>
-		</tr>
-		<tr>
-			<td>Отчество</td>
-			<td>".$_POST["Patronymic"]."</td>
-		</tr>
-		<tr>
-			<td>День рождения</td>
-			<td>".$_POST["date"]."</td>
-		</tr>
-		<tr>
-			<td>Пол</td>
-			<td>".$sex[0]."</td>
-		</tr>
-		<tr>
-			<td>Группа</td>
-			<td>".$_POST["group"]."</td>
-		</tr>
-		<tr>
-			<td>Страна</td>
-			<td>".$country."</td>
-		</tr>
-		<tr>
-			<td>Адрес</td>
-			<td>".$_POST["addres"]."</td>
-		</tr>
-		<tr>
-			<td>Телефон</td>
-			<td>".$_POST["tel"]."</td>
-		</tr>
-		<tr>
-			<td>Электронная почта</td>
-			<td>".$_POST["mail"]."</td>
-		</tr>
-		<tr>
-			<td>Увлечения</td>
-			<td>$hobby</td>
-		</tr>
-	</table>
-		Дополнительная информация
-			<br>".$account;
 		if (is_readable($path))
 			file_put_contents($path, $account, FILE_APPEND);
 		else{
