@@ -44,7 +44,7 @@
 					</tr>
 					<tr>
 						<td><input type="reset" value="Сбросить"></td>
-						<td><input type="submit" value="Отправить"></td>
+						<td><input type="submit" value="Поиск"></td>
 					</tr>
 				</table>
 			</fieldset>
