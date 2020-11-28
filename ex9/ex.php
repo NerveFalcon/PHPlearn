@@ -17,6 +17,19 @@
 			width: 200px;
 			text-align: center;
 		}
+		.line{
+			display:inline-block;
+			vertical-align:top;	
+		}
+		select{
+			width: 200px;
+			text-align: center;
+		}
+		footer{
+			position: absolute;
+			bottom: 10%;
+			right:22%;
+		}
 	</style>
 </head>
 <body>
