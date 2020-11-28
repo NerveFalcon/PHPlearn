@@ -18,7 +18,7 @@
 				<input type="submit" value="Send">
 				<br>
 				<?php
-					include "4-1.php";
+					include "4.php";
 					$string = $_POST['text'];
 				?>
 				<p>Какие-то непонятные проблемы с кодировкой, англиийские слова нормально работают, а вот с Верхним регистром русского языка что-то не так</p>
@@ -36,7 +36,7 @@
 				<br>
 				<pre>
 				<?php
-					include "4-2.php";
+					include "5.php";
 					for ($i=0; $i < 10; $i++) { 
 						$arr[$i] = rand(0, 50);
 					}

@@ -1,0 +1,4 @@
+user_id|user_login|user_password|user_hash|user_ip
+1|login|5f4dcc3b5aa765d61d8327deb882cf99|5a1e8c6ae89009dadd082cfb4733713e| 
+2|falcon|5b95982fd6b17e06a10ed4e05970500a|ff6ebcb83eaf17aa82a724be4333b634| 
+3|familiar|01bc6f8efa4202821e95f4fdf6298b30|22afa62e4b895f11c8b269e4182cbd01|::1

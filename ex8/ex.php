@@ -6,6 +6,7 @@
 	<style>
 		table{
 			border:0;
+			margin:auto;
 		}
 		td{
 			border:0;
@@ -33,7 +34,7 @@
 		<form action="" method="post">
 			<fieldset>
 				<legend>Анкета</legend>
-				<table style="margin:auto">
+				<table>
 					<tr>
 						<td><label for="SecName">Фамилия*</label></td>
 						<td><input type="text" name="SecName" id="form"></td>

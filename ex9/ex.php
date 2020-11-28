@@ -6,6 +6,7 @@
 	<style>
 		table{
 			border:0;
+			margin:auto;
 		}
 		td{
 			border:0;
@@ -42,7 +43,7 @@
 		<form action="" method="post">
 			<fieldset>
 				<legend>Поиск пользователя</legend>
-				<table style="margin:auto">
+				<table>
 					<tr>
 						<td><label for="SName">Фамилия</label></td>
 						<td><input type="text" name="SName" id="fio"></td>
