@@ -16,7 +16,17 @@
 	else{
 		echo "$S $F $P<br>";
 		$count = count($find);
-		echo "Найдено $count пользователей<br>";
+		switch ($count % 10) {
+			case '0' || '5' || '6' || '7' || '8' || '9':
+				echo "Найдено $count пользователей<br>";
+				break;
+			case '1':
+				echo "Найден $count пользователь<br>";
+				break;
+			case '2' || '3' || '4':
+				echo "Найдено $count пользователя<br>";
+				break;
+		}
 		foreach ($find as $line => $line_num){
 			$ex = explode("|", $accounts[$line_num]);
 			for ($i=0; $i < 12; $i++) { 
