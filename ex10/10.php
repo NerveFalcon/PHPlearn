@@ -68,11 +68,7 @@ elseif(isset($_POST['auth'])){
 	else{
 		echo "вы ввели не правильный пароль";
 	}
-	if(!@$_POST['not_attach_ip']){
-		# Если пользователя выбрал привязку к IP
-		# Переводим IP в строку
 		$insip = $_SERVER['REMOTE_ADDR'];
-	}
 	# Записываем в БД новый хеш авторизации и IP
 	$data[3] = $hash;
 	$data[4] = $insip;
