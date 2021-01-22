@@ -6,4 +6,5 @@ a|a|a|2019-10-20|male|92|Россия|a|a|asd@das.ru|Баскетбол Чтен
 a|a|a|2019-10-20|male|92|Россия|a|a|asd@das.ru|Баскетбол Чтение Музыка |a
 a|b|b|2019-10-19|female|92|Россия|a|a|asd@das.ru|Баскетбол Чтение Музыка |abb
 a|b|c|2019-10-20|female|92|Россия|a|a|asd@das.ru|Баскетбол Чтение |abc
-f|n|p|2021-12-29|male|81|Россия|||asd@das.ru|Баскетбол Чтение Музыка |about me
+fam|nam|pat|2021-12-02|female|92|Россия|fhjbk|+79876542345|hyuifuy@hgyf.ru|Чтение <br>Музыка <br>|I'm Cool
+fam|nam|pat|2008-11-30|male|92|Россия|fhjbk|+79876542345|hyuifuy@hgyf.ru|Баскетбол <br>Музыка <br>|so cute

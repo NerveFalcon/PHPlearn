@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Практическая раюота 2</title>
+	<title>Практическая работа 2</title>
 	<link rel="stylesheet" href="/fund.css">
 </head>
 <body>

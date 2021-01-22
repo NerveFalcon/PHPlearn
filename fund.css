@@ -8,7 +8,7 @@ body{
     text-align: center;
 }
 p, li{
-    font-size: 13pt;
+    font-size: 11pt;
 }
 td{
     margin: 1px;
@@ -97,6 +97,9 @@ a{
 }
 a:hover{
     color: #aa1111;
+}
+.ex{
+    background-color: #00008725;
 }
 footer{
     height: 50px;
